@@ -1,0 +1,11 @@
+<!-- classPathXmlApplicationContext.xml -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="helloWorldBean" class="com.amir35.example.SpringBootBasic.HelloWorldBean">
+        <property name="message" value="Hello, World!"/>
+    </bean>
+
+</beans>
