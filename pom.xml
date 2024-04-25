@@ -64,6 +64,16 @@
 				</configuration>
 			</plugin>
 		</plugins>
+
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+			<!-- Add additional resource directories here -->
+			<resource>
+				<directory>src/main/java/com/amir35/example/SpringBootBasic/xmlBased</directory>
+			</resource>
+		</resources>
 	</build>
 
 </project>

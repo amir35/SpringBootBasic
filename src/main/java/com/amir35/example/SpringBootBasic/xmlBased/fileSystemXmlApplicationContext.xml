@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="helloWorldBean" class="com.amir35.example.SpringBootBasic.HelloWorldBean">
+    <bean id="helloWorldBean" class="com.amir35.example.SpringBootBasic.xmlBased.HelloWorldBean">
         <property name="message" value="Hello, World!"/>
     </bean>
 

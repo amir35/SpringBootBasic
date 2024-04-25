@@ -1,4 +1,4 @@
-package com.amir35.example.SpringBootBasic;
+package com.amir35.example.SpringBootBasic.javaBased;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
